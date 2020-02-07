@@ -1,0 +1,244 @@
+.bgimg{
+	background-image: url('../img/body.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 660px;
+
+}
+
+.headerset{
+	padding-top: 200px;
+    box-sizing: border-box;
+}
+
+.headerset h2{
+     font-size: 42px;
+}
+
+.headerset h1{
+	font-size: 82px;
+	font-weight: bold;
+}
+.nav-items  a{
+	text-decoration: none;
+	color:#2d3436;
+	font-weight: bold;
+	position: relative;
+}
+.nav-items  a:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top:100%;
+	width: 0;
+	height: 2px;
+	background-color: #000;
+	transition: all 0.5s linear;
+}
+.nav-items  a:hover{
+	color:orange;
+	width: 100%
+	background-color:#6c5ce7;
+}
+
+
+/*...............................................Services............................... .................*/
+.services{
+	padding: 100px 0px 60px;
+	height: 700px;
+}
+
+.services h1{
+     font-size: 50px;
+     font-weight: bold;
+
+}
+
+.rowsetting{
+	margin: 80px 0px !important;
+}
+
+.imgsetting{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+.fa-shopping-cart{
+	margin-top: 20px;
+}
+.fa-desktop{
+	margin-top: 24px;
+}
+.fa-lock{
+	margin-top: 20px;
+}
+
+.rowsetting h2{
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+.rowsetting p{
+	padding: 10px;
+	color: #6c757d!important;
+}
+
+
+/*--------------------------------------------------Portfolio---------------------------------*/
+
+.portfolio{
+	height: 800px;
+    width: 100%;
+    padding: 100px 0px 50px;
+}
+
+.portfolio h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.card{
+	margin-top: 40px;
+}
+/*----------------------------------------------------Products-----------------------------------------*/
+.products{
+	height: 1100px;
+    width: 100%;
+    padding: 100px 0px 50px;
+}
+
+.products h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.products p{
+	text-align: justify;
+}
+/*----------------------------------------------------About us------------------------------------------*/
+.aboutus{
+	height: 600px;
+    width: 100%;
+    padding: 100px 0px 50px;
+    text-align: justify;
+}
+
+.aboutus h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.aboutus h4{
+	text-align: justify;
+}
+
+/*-------------------------------------------------------Our Team------------------------------*/
+
+.ourteam{
+	height: 700px;
+	padding: 100px 0px 60px;
+	width: 100%
+}
+
+.ourteam h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.teamsetting{
+	margin-top: 70px;
+}
+/*----------------------------------------------------Contact Us------------------------------*/
+
+.contactus{
+	height: 700px;
+	padding: 100px 0px 60px;
+	width: 100%
+}
+
+.contactus h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.address h5{
+      font-weight: bold;
+}
+
+.form-selection {
+	margin-top: -35%;
+}
+
+
+/*------------------------------------------Suscribe -----------------------------------------------------*/
+
+.suscribe{
+	margin-top: 10%;
+	height: 700px;
+	padding: 100px 0px 60px;
+	width: 100%
+    margin-top:100px;
+	
+
+}
+
+.suscribe h1{
+
+	font-size: 50px;
+	font-weight: bold;
+}
+/*----------------------------------------------------Footer-----------------------------------*/
+
+.footer_style{
+	margin-top: 0px;
+
+	height: 420px;
+}
+
+.footer h6{
+	line-height: 650px;
+}
+
+
+
+.navbar{
+	background:#121F1F;
+}
+
+
+/*...........................................*/
+
+#particles-js{
+	width: 100%;
+	height: 100vh;
+	background:#262626;
+}
+/*-------------------------------------------------------------------Responsive--------------------------*/
+
+@media(min-width: 992px){
+
+}
+
+
+@media(min-width: 768px) and (max-width: 991px){
+
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+
+}
+
+@media(min-width: 480px) and (max-width: 574px){
+
+}
+
+@media(max-width: 479px){
+    headerset h2{
+     font-size: 16px;
+}
+
+.headerset h1{
+	font-size: 32px;
+	font-weight: bold;
+}
+}
